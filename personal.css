@@ -4,13 +4,13 @@ body {
     font-family: 'Montserrat';
     margin: 0;
     padding: 0;
-    background: #fefff2; /* light grayish blue */
+    background: #d8e7cc; 
     color: #111;
   }
   
   /* Header section */
   header {
-    background-color: #fefff2; /* slightly darker than body */
+    background-color: #cfeec7; /* slightly darker than body */
     padding: 2rem 1rem 1rem;
     text-align: center;
     border-top: 1px solid #000;
