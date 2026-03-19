@@ -27,7 +27,7 @@ a:link, a:visited, a:active, a:hover {
 
 /* Basic page styling */
 body {
-  background: #f5f5f5 url('img/background.png') top left fixed repeat;
+  background: #f5f5f5 url('gingham-bg.webp') top left fixed repeat;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
