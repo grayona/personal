@@ -10,7 +10,7 @@ a:link, a:visited, a:active, a:hover {
   background: #ffffff;
 }
 ::-webkit-scrollbar-thumb {
-  background: #ffffff url('img/background.png');
+  background: #d8e7cc;
   height: 8px;
   width: 8px;
   border-radius: 2px;
