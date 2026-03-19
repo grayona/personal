@@ -27,7 +27,7 @@ a:link, a:visited, a:active, a:hover {
 
 /* Basic page styling */
 body {
-  background-image: #f5f5f5 url('gingham-bg.webp') top left fixed repeat;
+  background-image: url('gingham-bg.webp') top left fixed repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.4);  
   background-blend-mode: overlay;
