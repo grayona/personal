@@ -94,7 +94,6 @@ a img {
   margin-top: 120px;  /* adjust as needed */
   width: 185px;
   margin-left: -35px; /* adjust as needed */
-  color: #9b8c92;
 }
 
 /* Sidebar avatar/image */
@@ -123,6 +122,7 @@ a img {
   font-size: 11px;
   position: relative;
   top: -11px;
+  color: #9b8c92;
 }
 
 #wrapper #sidebar #top #description a {
