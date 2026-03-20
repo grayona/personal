@@ -98,10 +98,11 @@ a img {
 }
 
 /* Sidebar avatar/image */
-#wrapper #sidebar #avatar {
-  width: 120px;
-  height: auto;
-  padding-top: 8px;
+#wrapper #sidebar #avatar-text a {
+  display: inline-block;
+  color: #9b8c92;            /* main text color */
+  text-decoration: none;
+  font-family: Arial, sans-serif;
 }
 
 /* Sidebar top container */
