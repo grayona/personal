@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Alexis Grayon, MPH</title>
+
+  <!-- Basic SEO -->
+  <meta name="description" content="Alexis Grayon personal website">
+
+  <!-- Favicon (optional) -->
+  <link rel="icon" type="image/png" href="img/warm.png">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Optional top decorative bar -->
+  <div id="topthingy"></div>
+
+  <div id="wrapper">
+    <!-- Main content -->
+    <div id="content">
+      <!-- Example “post” used as homepage content -->
+      <div class="post">
+        <div class="title">Contact</div>
+        <div class="copy">
+          <p>
+            Here are some ways to reach me:
+          </p>
+          <p>
+            <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name" required><br><br>
+  
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+  
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message" rows="5" required></textarea><br><br>
+  
+              <button type="submit">Send</button>
+            </form>
+          </p>
+        </div>
+      </div>
+
+      <!-- Add more “post” blocks if you want multiple sections -->
+      <!--
+      <div class="post">
+        <div class="title">Another Section</div>
+        <div class="copy">
+          <p>More content here...</p>
+        </div>
+      </div>
+      -->
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+      <center>
+        <!-- Sidebar image -->
+        <div id="avatar-text">
+            <strong>Alexis R. Grayon</strong>, MPH
+        </div>
+      </center>
+
+      <div id="top">
+        <div id="ahe"></div>
+        <center>
+          <div id="description">
+            <!-- Sidebar description text -->
+            <p>
+              Welcome to my page :) Please use the dropdown menu below to navigate.
+            </p>
+            <img src="img/sidebar-divider.png" alt="" />
+          </div>
+        </center>
+      </div>
+
+      <br>
+
+      <div id="res2"></div>
+      <div id="res">
+        <!-- Dropdown navigation -->
+        <select id="nav-select"
+        style="font-family:verdana; opacity:0.7; font-size:10px; color:#9b8c92; width:110px;">
+  <option value="/index.html">navigation</option>
+  <option value="/index.html">home</option>
+  <option value="/experiences.html">experiences</option>
+  <option value="/publications.html">publications</option>
+  <option value="/presentations.html">presentations</option>
+  <option value="https://orcid.org/0000-0002-9788-509X" data-external="true">ORCID</option>
+  <option value="https://www.linkedin.com/in/alexisrgrayon/" data-external="true">linkedin</option>
+  <option value="https://beacons.page/lapislex" data-external="true">hobbies</option>
+  <option value="/contact.html">contact</option>
+  <option value="https://github.com/grayona" data-external="true">github</option>
+          </select>
+
+<script>
+  document.getElementById('nav-select').addEventListener('change', function () {
+    const opt = this.options[this.selectedIndex];
+    const url = opt.value;
+    if (!url) return;
+
+    if (opt.dataset.external === 'true') {
+      window.open(url, '_blank', 'noopener,noreferrer');
+    } else {
+      window.location.href = url;
+    }
+  });
+</script>
+      </div>
+    </div>
+
+  </div> <!-- #wrapper -->
+
+</body>
+</html>
