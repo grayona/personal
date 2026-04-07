@@ -97,7 +97,7 @@ a img {
 }
 
 /* Sidebar avatar/image */
-#avatar-text a {
+#wrapper #sidebar #avatar-text a {
   display: inline-block;
   color: #494949;
   text-decoration: none;
